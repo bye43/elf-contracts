@@ -1,5 +1,5 @@
 {
-  "name": "elf-contracts",
+  "name": "elf-smart-contracts",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -17,6 +17,10 @@
     "unit:test": "npx hardhat test --no-compile --config hardhat.config.test.ts",
     "load-contracts": "sh scripts/load-balancer-contracts.sh"
   },
+  "files": [
+    "contracts/*",
+    "test/helpers"
+  ],
   "_moduleAliases": {
     "test": "./test"
   },
