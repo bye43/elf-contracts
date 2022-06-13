@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - npm-package
-      types: [published]
 
 jobs:
   release:
