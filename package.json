@@ -39,7 +39,7 @@
       "npx prettier --write"
     ]
   },
-  "author": "",
+  "author": "Element finance",
   "license": "ISC",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
